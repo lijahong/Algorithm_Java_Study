@@ -13,9 +13,9 @@ public class Main {
           int x = fr.nextInt();
           cnt[x]++; //데이터의 인덱스에 해당하는 수를 증가
         }
-        for(int i = 0; i< 10001; i++){
+        for(int i = 0; i<- 10000; i++){
           for(int j =0; j<cnt[i]; j++){
-              buffWriter.write( i + '\n');
+              buffWriter.write( i + "\n");
           }
         }
         buffWriter.flush();
