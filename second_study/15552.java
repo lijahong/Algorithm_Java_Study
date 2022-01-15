@@ -14,11 +14,11 @@ public class Main {
         for (int tc = 0; tc < testCases; tc++) {
             int a = fr.nextInt();
             int b = fr.nextInt();
-            buffWriter.write((a + b) + "\n");
+            buffWriter.write((a + b) + "\n"); //버퍼에 기록
         }
         // Flush the buffer writer
-        buffWriter.flush();
-        System.out.println(stringWriter.getBuffer());
+        buffWriter.flush(); //출력 스트림을 비우고, 버퍼에 기록된 데이터를 강제 입력
+        System.out.println(stringWriter.getBuffer()); //한번에 출력
     }
 
 
