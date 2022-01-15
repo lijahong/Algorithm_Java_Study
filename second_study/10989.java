@@ -7,13 +7,14 @@ public class Main {
         
         int[] cnt = new int[10001];
         int n = fr.nextInt();
-        StringWriter stringWriter = new StringWriter();
-        BufferedWriter buffWriter = new BufferedWriter(stringWriter);
+       
         for(int i = 0; i<n; i++){
           int x = fr.nextInt();
           cnt[x]++; //데이터의 인덱스에 해당하는 수를 증가
         }
-        for(int i = 0; i<- 10000; i++){
+        StringWriter stringWriter = new StringWriter();
+        BufferedWriter buffWriter = new BufferedWriter(stringWriter);
+        for(int i = 0; i<= 10000; i++){
           for(int j =0; j<cnt[i]; j++){
               buffWriter.write( i + "\n");
           }
