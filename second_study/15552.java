@@ -1,3 +1,5 @@
+//버퍼에 담았다가 한번에 출력하는 방법으로 시간초과에 대비하는 출력법
+
 import java.util.*;
 import java.io.*;
 
