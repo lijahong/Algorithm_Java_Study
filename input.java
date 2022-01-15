@@ -1,6 +1,7 @@
 import java.util.*;
 import java.io.*;
 //입력 사용시 스캐너보다 훨씬 빠르게 실행되는 input 기법
+//버퍼에 한줄 한줄 담는 것이 아닌 버퍼에 한번에 담아서 한번에 출력하므로 빠름
 public class Main {
         public static void main(String[] args) {
            FastReader fr = new FastReader();
