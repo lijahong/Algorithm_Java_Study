@@ -15,7 +15,7 @@ public class Main {
         }
         for(int i = 0; i< 10001; i++){
           for(int j =0; j<cnt[i]; j++){
-              buffWriter.write( j + '\n');
+              buffWriter.write( i + '\n');
           }
         }
         buffWriter.flush();
