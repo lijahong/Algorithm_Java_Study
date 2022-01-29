@@ -90,4 +90,4 @@ for (int i = 2; i<= x; i++){
 ## 7. Backjoon 문제
 > 1003 : 피보나치 (https://github.com/lijahong/algorithm_java/blob/main/Four_study/1003.java)
 >
-> 9184 : 함수 
+> 9184 : 함수  (https://github.com/lijahong/algorithm_java/blob/main/Four_study/9184.java)
