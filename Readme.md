@@ -1,6 +1,6 @@
 algorithm_java
 =================================
-ndb의 자바 알고리즘 특강 내용 
+2022 1월 진행한 ndb의 자바 알고리즘 특강 내용 
 -----------------------------------
 - 목차
 > 1. [첫번째 수업](https://github.com/lijahong/algorithm_java/tree/main/first_study)
